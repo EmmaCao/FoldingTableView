@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  OptionalTableViewCell.h
 //  FoldingTableView
 //
 //  Created by Emma on 2018/10/16.
@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import "CellModel.h"
 
-@property (strong, nonatomic) UIWindow *window;
+@interface OptionalTableViewCell : UITableViewCell
 
+@property (nonatomic) CellModel *cellModel;
 
 @end
-

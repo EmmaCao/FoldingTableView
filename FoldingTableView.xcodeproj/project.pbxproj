@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35F965808DEE170EE240AFC0 /* libPods-FoldingTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1EE8D4E3D45BA766E22D1D /* libPods-FoldingTableView.a */; };
 		44AA86662175CC9900AD2F88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AA86652175CC9900AD2F88 /* AppDelegate.m */; };
 		44AA86692175CC9900AD2F88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AA86682175CC9900AD2F88 /* ViewController.m */; };
 		44AA866C2175CC9900AD2F88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AA866A2175CC9900AD2F88 /* Main.storyboard */; };
 		44AA866E2175CC9A00AD2F88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AA866D2175CC9A00AD2F88 /* Assets.xcassets */; };
 		44AA86712175CC9A00AD2F88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AA866F2175CC9A00AD2F88 /* LaunchScreen.storyboard */; };
 		44AA86742175CC9A00AD2F88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AA86732175CC9A00AD2F88 /* main.m */; };
+		44AA867E2175CF2F00AD2F88 /* SectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AA867D2175CF2F00AD2F88 /* SectionModel.m */; };
+		44AA86822175CF9A00AD2F88 /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AA86812175CF9A00AD2F88 /* Header.m */; };
+		44AA86862175D30100AD2F88 /* OptionalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AA86842175D30100AD2F88 /* OptionalTableViewCell.m */; };
+		44AA86872175D30100AD2F88 /* OptionalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44AA86852175D30100AD2F88 /* OptionalTableViewCell.xib */; };
+		44AA868F2175DDC000AD2F88 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AA868E2175DDC000AD2F88 /* CellModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1639015A242CC3C1793D6E6A /* Pods-FoldingTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoldingTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoldingTableView/Pods-FoldingTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		1B2F967DF202DE6238B5E905 /* Pods-FoldingTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoldingTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoldingTableView/Pods-FoldingTableView.release.xcconfig"; sourceTree = "<group>"; };
 		44AA86612175CC9900AD2F88 /* FoldingTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoldingTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AA86642175CC9900AD2F88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44AA86652175CC9900AD2F88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +34,17 @@
 		44AA86702175CC9A00AD2F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44AA86722175CC9A00AD2F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44AA86732175CC9A00AD2F88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44AA867C2175CF2F00AD2F88 /* SectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionModel.h; sourceTree = "<group>"; };
+		44AA867D2175CF2F00AD2F88 /* SectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionModel.m; sourceTree = "<group>"; };
+		44AA86802175CF9A00AD2F88 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		44AA86812175CF9A00AD2F88 /* Header.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Header.m; sourceTree = "<group>"; };
+		44AA86832175D30100AD2F88 /* OptionalTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptionalTableViewCell.h; sourceTree = "<group>"; };
+		44AA86842175D30100AD2F88 /* OptionalTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptionalTableViewCell.m; sourceTree = "<group>"; };
+		44AA86852175D30100AD2F88 /* OptionalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionalTableViewCell.xib; sourceTree = "<group>"; };
+		44AA868D2175DDC000AD2F88 /* CellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		44AA868E2175DDC000AD2F88 /* CellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
+		44AA86902175E27700AD2F88 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AC1EE8D4E3D45BA766E22D1D /* libPods-FoldingTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoldingTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +52,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F965808DEE170EE240AFC0 /* libPods-FoldingTableView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40193A2D70322F791D44173B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1639015A242CC3C1793D6E6A /* Pods-FoldingTableView.debug.xcconfig */,
+				1B2F967DF202DE6238B5E905 /* Pods-FoldingTableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		44AA86582175CC9900AD2F88 = {
 			isa = PBXGroup;
 			children = (
 				44AA86632175CC9900AD2F88 /* FoldingTableView */,
 				44AA86622175CC9900AD2F88 /* Products */,
+				40193A2D70322F791D44173B /* Pods */,
+				97DD23A22F31042228868D26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +89,59 @@
 		44AA86632175CC9900AD2F88 /* FoldingTableView */ = {
 			isa = PBXGroup;
 			children = (
-				44AA86642175CC9900AD2F88 /* AppDelegate.h */,
-				44AA86652175CC9900AD2F88 /* AppDelegate.m */,
+				44AA867F2175CF7200AD2F88 /* View */,
+				44AA867A2175CE9400AD2F88 /* Model */,
+				44AA867B2175CE9B00AD2F88 /* Supporting Files */,
 				44AA86672175CC9900AD2F88 /* ViewController.h */,
 				44AA86682175CC9900AD2F88 /* ViewController.m */,
 				44AA866A2175CC9900AD2F88 /* Main.storyboard */,
 				44AA866D2175CC9A00AD2F88 /* Assets.xcassets */,
+			);
+			path = FoldingTableView;
+			sourceTree = "<group>";
+		};
+		44AA867A2175CE9400AD2F88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44AA867C2175CF2F00AD2F88 /* SectionModel.h */,
+				44AA867D2175CF2F00AD2F88 /* SectionModel.m */,
+				44AA868D2175DDC000AD2F88 /* CellModel.h */,
+				44AA868E2175DDC000AD2F88 /* CellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44AA867B2175CE9B00AD2F88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44AA86642175CC9900AD2F88 /* AppDelegate.h */,
+				44AA86652175CC9900AD2F88 /* AppDelegate.m */,
 				44AA866F2175CC9A00AD2F88 /* LaunchScreen.storyboard */,
 				44AA86722175CC9A00AD2F88 /* Info.plist */,
 				44AA86732175CC9A00AD2F88 /* main.m */,
+				44AA86902175E27700AD2F88 /* PrefixHeader.pch */,
 			);
-			path = FoldingTableView;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44AA867F2175CF7200AD2F88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44AA86802175CF9A00AD2F88 /* Header.h */,
+				44AA86812175CF9A00AD2F88 /* Header.m */,
+				44AA86832175D30100AD2F88 /* OptionalTableViewCell.h */,
+				44AA86842175D30100AD2F88 /* OptionalTableViewCell.m */,
+				44AA86852175D30100AD2F88 /* OptionalTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		97DD23A22F31042228868D26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC1EE8D4E3D45BA766E22D1D /* libPods-FoldingTableView.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +151,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44AA86772175CC9A00AD2F88 /* Build configuration list for PBXNativeTarget "FoldingTableView" */;
 			buildPhases = (
+				10B6F0047F31E0DE1B7B3EF3 /* [CP] Check Pods Manifest.lock */,
 				44AA865D2175CC9900AD2F88 /* Sources */,
 				44AA865E2175CC9900AD2F88 /* Frameworks */,
 				44AA865F2175CC9900AD2F88 /* Resources */,
@@ -131,10 +205,32 @@
 				44AA86712175CC9A00AD2F88 /* LaunchScreen.storyboard in Resources */,
 				44AA866E2175CC9A00AD2F88 /* Assets.xcassets in Resources */,
 				44AA866C2175CC9900AD2F88 /* Main.storyboard in Resources */,
+				44AA86872175D30100AD2F88 /* OptionalTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10B6F0047F31E0DE1B7B3EF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoldingTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		44AA865D2175CC9900AD2F88 /* Sources */ = {
@@ -144,6 +240,10 @@
 				44AA86692175CC9900AD2F88 /* ViewController.m in Sources */,
 				44AA86742175CC9A00AD2F88 /* main.m in Sources */,
 				44AA86662175CC9900AD2F88 /* AppDelegate.m in Sources */,
+				44AA867E2175CF2F00AD2F88 /* SectionModel.m in Sources */,
+				44AA868F2175DDC000AD2F88 /* CellModel.m in Sources */,
+				44AA86822175CF9A00AD2F88 /* Header.m in Sources */,
+				44AA86862175D30100AD2F88 /* OptionalTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,10 +381,12 @@
 		};
 		44AA86782175CC9A00AD2F88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1639015A242CC3C1793D6E6A /* Pods-FoldingTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XPFX4D87J3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FoldingTableView/PrefixHeader.pch";
 				INFOPLIST_FILE = FoldingTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,10 +400,12 @@
 		};
 		44AA86792175CC9A00AD2F88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B2F967DF202DE6238B5E905 /* Pods-FoldingTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XPFX4D87J3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FoldingTableView/PrefixHeader.pch";
 				INFOPLIST_FILE = FoldingTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
